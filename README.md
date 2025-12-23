@@ -9,3 +9,5 @@
 * **`/datasets/chgh_datasets.py`**：新增隨機抽取函式（見註解），可不依賴預先產生的 JSON 檔進行資料採樣。
 * **`/expers/tune.py`**：加入不同 Loss Function 的設定選項。
 * **`/networks/network.py`**：加入 UNet++ 相關網路架構設定與調整。
+
+* MedLSAM 的實作參考自原始論文作者所提供的官方程式碼： [MedLSAM Official Repository](https://github.com/openmedlab/MedLSAM.git)
